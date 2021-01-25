@@ -13,7 +13,7 @@ employees.emp_no=salaries.emp_no;
 
 SELECT first_name, last_name, hire_date
 FROM employees
-WHERE hire_date BETWEEN '01/01/1986' AND '12/31/1986';
+WHERE hire_date BETWEEN '01-01-1986' AND '12-31-1986';
 
 ---List the manager of each department with the following information:
 ---department number, department name, the manager's employee number, 
