@@ -10,10 +10,7 @@ CREATE TABLE "Employees" (
     "first_name" VARCHAR   NOT NULL,
     "last_name" VARCHAR   NOT NULL,
     "sex" VARCHAR   NOT NULL,
-    "hire_date" VARCHAR   NOT NULL,
-    CONSTRAINT "pk_Employees" PRIMARY KEY (
-        "emp_no"
-     )
+    "hire_date" VARCHAR   NOT NULL
 );
 
 CREATE TABLE "Salaries" (
@@ -28,10 +25,7 @@ CREATE TABLE "Titles" (
 
 CREATE TABLE "Departments" (
     "dept_no" VARCHAR   NOT NULL,
-    "dept_name" VARCHAR   NOT NULL,
-    CONSTRAINT "pk_Departments" PRIMARY KEY (
-        "dept_no"
-     )
+    "dept_name" VARCHAR   NOT NULL
 );
 
 CREATE TABLE "Department_Employee" (
