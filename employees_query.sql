@@ -8,13 +8,12 @@ DROP TABLE Department_Manager;
 CREATE TABLE Employees (
     emp_no INT   NOT NULL,
     emp_title_id VARCHAR   NOT NULL,
-    birth_date VARCHAR   NOT NULL,
+    birth_date DATE   NOT NULL,
     first_name VARCHAR   NOT NULL,
     last_name VARCHAR   NOT NULL,
     sex VARCHAR   NOT NULL,
-    hire_date VARCHAR   NOT NULL,
-	PRIMARY KEY (emp_no),
-	FOREIGN KEY (emp_title_id) REFERENCES Titles(title_id)
+    hire_date DATE   NOT NULL,
+	PRIMARY KEY (emp_no)
 );
 SELECT * FROM Employees;
 
@@ -29,7 +28,8 @@ SELECT * FROM Salaries;
 CREATE TABLE Titles (
     title_id VARCHAR   NOT NULL,
     title VARCHAR   NOT NULL,
-	PRIMARY KEY(title)
+	PRIMARY KEY(title),
+	FOREIGN KEY (title_id) REFERENCES employees(emp_title_id)
 );
 
 SELECT * FROM Titles;
