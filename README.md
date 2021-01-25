@@ -1,4 +1,5 @@
 # sql_challenge
+<pre>
 <p>
   <ul>
   -<b>EmployeeSQL</b> contains all Resource .csv files used to create tables for database.
@@ -9,3 +10,4 @@ is the image of the diagram.
   -<b>SQL_engine.ipynb</b> is the jupyter notebook file of a bonus analysis reviewing common salary ranges visualized within a histogram, as well as average salary for each employment title charted in a bar plot.
     </ul>
 </p>
+</pre>
