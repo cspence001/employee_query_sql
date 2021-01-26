@@ -2,7 +2,7 @@
 <pre>
 
 
-<b>EmployeeSQL</b> contains all Resource .csv files used to create tables for database.
+<b>EmployeeSQL Folder</b> contains all Resource .csv files used to create tables for database.
 <b>employees_query.sql</b> contains the query necessary to create the tables for each csv.
 <b>analysis_query.sql</b> contains the query used to run an analysis based on the tables created 
 to inquire employee details, referenced within the database, i.e. associated salaries, titles, 
