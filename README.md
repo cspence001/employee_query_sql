@@ -1,4 +1,4 @@
-# sql_challenge
+# employee_sql_query
 
 
 
