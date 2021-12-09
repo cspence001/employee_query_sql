@@ -3,7 +3,7 @@
 
 
 <h4>EmployeeSQL Folder</h4> contains all Resource .csv files used to create tables for SQL database.
-<h4>EmployeesDBD.sql</h4> exported SQL file from QuickDBD used to create diagram for Tables and Key References.
+<h4>EmployeesDBD.sql</h4> exported SQL file used to create diagram for Tables and Key References.
 <h4>QuickDBD-Employees DBD.png</h4> Reference image of database diagram.
 <h4>employees_query.sql</h4> queries used to create the tables and key references for each csv.
 <h4>analysis_query.sql</h4> Example Query Reference Guide<br> 
