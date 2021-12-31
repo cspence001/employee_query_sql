@@ -22,7 +22,6 @@ CREATE TABLE employees (
 );
 SELECT * FROM employees;
 
-
 CREATE TABLE Salaries (
     emp_no INT   NOT NULL,
     salary INT   NOT NULL,
@@ -34,21 +33,18 @@ CREATE TABLE Departments (
     dept_no VARCHAR   PRIMARY KEY,
     dept_name VARCHAR   NOT NULL
 );
-
 SELECT * FROM Departments;
 
 CREATE TABLE Department_Employee (
     emp_no INT   NOT NULL,
     dept_no VARCHAR   NOT NULL
 );
-
 SELECT * FROM Department_Employee;
 
 CREATE TABLE Department_Manager (
     dept_no VARCHAR   NOT NULL,
     emp_no INT   NOT NULL
 );
-
 SELECT * FROM Department_Manager;
 
 
