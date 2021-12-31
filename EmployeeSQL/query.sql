@@ -78,7 +78,7 @@ FROM employees
 GROUP BY last_name
 ORDER BY "Total Names" DESC;
 
---- GETS COUNT OF EMPLOYEES IN EACH DEPT, ORDER DESC COUNT, ALPHABETICAL DEPT IF COUNT=COUNT
+---Get Count of employees in each department, in descending order, alphabetical by department if depart employee counts equal. 
 SELECT COUNT(*) AS "emp_count", departments.dept_name
 FROM employees 
 JOIN department_employee ON
