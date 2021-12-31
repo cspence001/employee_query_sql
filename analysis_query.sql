@@ -23,11 +23,11 @@ SELECT departments.dept_no,
 departments.dept_name, 
 department_manager.emp_no,
 employees.first_name, employees.last_name
-FROM ((department_manager
-INNER JOIN departments ON
-departments.dept_no=department_manager.dept_no)
-INNER JOIN employees ON
-department_manager.emp_no=employees.emp_no);
+FROM departments
+JOIN department_manager ON
+departments.dept_no=department_manager.dept_no
+JOIN employees ON
+department_manager.emp_no=employees.emp_no;
 
 
 ---List the department of each employee with the following information:
@@ -37,11 +37,11 @@ SELECT department_employee.emp_no,
 employees.last_name, 
 employees.first_name,
 departments.dept_name
-FROM ((employees
+FROM employees
 JOIN department_employee ON
-department_employee.emp_no=employees.emp_no)
+department_employee.emp_no=employees.emp_no
 JOIN departments ON
-departments.dept_no=department_employee.dept_no);
+departments.dept_no=department_employee.dept_no;
 
 ---List first name, last name, and sex for employees whose 
 ---first name is "Hercules" and last names begin with "B."
